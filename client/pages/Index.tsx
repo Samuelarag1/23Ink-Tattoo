@@ -21,8 +21,6 @@ import {
 import { SectionDivider } from "@/components/SectionDivider";
 import {
   Instagram,
-  Music,
-  Calendar,
   MessageCircle,
   Star,
   MapPin,
@@ -36,7 +34,7 @@ import {
   ChevronRight,
   X,
 } from "lucide-react";
-
+import { FaTiktok } from "react-icons/fa";
 export default function Index() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
@@ -222,7 +220,7 @@ export default function Index() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Music className="h-6 w-6" />
+              <FaTiktok className="h-6 w-6" />
               <span>@23ink</span>
             </motion.a>
           </motion.div>
@@ -803,7 +801,7 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-3 py-3 px-6 border border-border rounded-lg hover:bg-accent transition-colors"
                 >
-                  <Music className="h-6 w-6" />
+                  <FaTiktok className="h-6 w-6" />
                   <span>@23ink</span>
                 </a>
                 <a

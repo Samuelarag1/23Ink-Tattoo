@@ -88,6 +88,13 @@
   }
 }
 
+.eb-garamond{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
 @layer base {
   * {
     @apply border-border;

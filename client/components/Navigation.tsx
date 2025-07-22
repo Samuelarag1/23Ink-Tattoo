@@ -1,27 +1,27 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X, Instagram } from 'lucide-react';
-import { Button } from './ui/button';
-
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { Menu, X, Instagram } from "lucide-react";
+import { Button } from "./ui/button";
+import { FaTiktok } from "react-icons/fa";
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Inicio', href: '/' },
-    { name: 'Sobre mí', href: '/#about' },
-    { name: 'Galería', href: '/#gallery' },
-    { name: 'Servicios', href: '/#services' },
-    { name: 'Turnos', href: '/#booking' },
-    { name: 'FAQ', href: '/#faq' },
-    { name: 'Contacto', href: '/#contact' },
+    { name: "Inicio", href: "/" },
+    { name: "Sobre mí", href: "/#about" },
+    { name: "Galería", href: "/#gallery" },
+    { name: "Servicios", href: "/#services" },
+    { name: "Turnos", href: "/#booking" },
+    { name: "FAQ", href: "/#faq" },
+    { name: "Contacto", href: "/#contact" },
   ];
 
   const scrollToSection = (href: string) => {
-    if (href.startsWith('/#')) {
+    if (href.startsWith("/#")) {
       const elementId = href.slice(2);
       const element = document.getElementById(elementId);
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({ behavior: "smooth" });
       }
     }
     setIsMenuOpen(false);
@@ -63,7 +63,11 @@ export function Navigation() {
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {isMenuOpen ? (
+              <X className="h-5 w-5" />
+            ) : (
+              <Menu className="h-5 w-5" />
+            )}
           </Button>
         </div>
 
