@@ -10,8 +10,9 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   build: {
-    outDir: "dist/spa",
+    outDir: "dist",
   },
+  base: "/",
   plugins: [react(), expressPlugin()],
   resolve: {
     alias: {
