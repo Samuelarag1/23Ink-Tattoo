@@ -250,7 +250,7 @@ export default function Index() {
       <SectionDivider variant="dots" />
 
       {/* About Section */}
-      <section id="about" className="py-24 px-4 bg-card">
+      <section id="about" className="py-24 px-4 bg-card overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
             className="text-4xl font-bold text-center mb-16 tracking-wide"
@@ -349,7 +349,7 @@ export default function Index() {
       <SectionDivider variant="lines" />
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-24 px-4">
+      <section id="gallery" className="py-24 px-4 overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
             className="text-4xl font-bold text-center mb-12 tracking-wide"
@@ -483,7 +483,7 @@ export default function Index() {
       <SectionDivider variant="ink" />
 
       {/* Services Section */}
-      <section id="services" className="py-24 px-4 bg-card">
+      <section id="services" className="py-24 px-4 bg-card overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
             className="text-4xl font-bold text-center mb-12 tracking-wide"
@@ -558,7 +558,7 @@ export default function Index() {
       <SectionDivider variant="geometric" />
 
       {/* Booking Section */}
-      <section id="booking" className="py-24 px-4">
+      <section id="booking" className="py-24 px-4 overflow-x-hidden">
         <div className="max-w-2xl mx-auto">
           <motion.h2
             className="text-4xl font-bold text-center mb-12 tracking-wide"
@@ -662,7 +662,7 @@ export default function Index() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-24 px-4 bg-card">
+      <section id="faq" className="py-24 px-4 bg-card overflow-x-hidden">
         <div className="max-w-4xl mx-auto">
           <motion.h2
             className="text-4xl font-bold text-center mb-12 tracking-wide"
@@ -693,7 +693,7 @@ export default function Index() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 px-4">
+      <section className="py-24 px-4 overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
             className="text-4xl font-bold text-center mb-12 tracking-wide"
@@ -746,7 +746,7 @@ export default function Index() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 px-4 bg-card">
+      <section id="contact" className="py-24 px-4 bg-card overflow-x-hidden">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h2
             className="text-4xl font-bold mb-8 tracking-wide"
@@ -822,7 +822,7 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-border py-8 px-4">
+      <footer className="border-t border-border py-8 px-4 overflow-x-hidden">
         <div className="max-w-6xl mx-auto text-center space-y-4">
           <p className="text-muted-foreground">
             © 2024 23 Ink Tattoos. Todos los derechos reservados. Buenos Aires,
