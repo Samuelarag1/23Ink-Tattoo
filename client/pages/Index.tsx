@@ -169,7 +169,7 @@ export default function Index() {
 
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <motion.h1
-            className="text-5xl md:text-7xl font-bold tracking-wider mb-6"
+            className="text-5xl md:text-7xl font-bold tracking-wider mb-6 eb-garamond"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
@@ -251,7 +251,7 @@ export default function Index() {
       <section id="about" className="py-24 px-4 bg-card overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
-            className="text-4xl font-bold text-center mb-16 tracking-wide"
+            className="text-4xl font-bold text-center mb-16 tracking-wide eb-garamond"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -350,7 +350,7 @@ export default function Index() {
       <section id="gallery" className="py-24 px-4 overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
-            className="text-4xl font-bold text-center mb-12 tracking-wide"
+            className="text-4xl font-bold text-center mb-12 tracking-wide eb-garamond"
             initial={{ opacity: 0, scale: 0.8, y: -30 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "backOut" }}
@@ -484,7 +484,7 @@ export default function Index() {
       <section id="services" className="py-24 px-4 bg-card overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
-            className="text-4xl font-bold text-center mb-12 tracking-wide"
+            className="text-4xl font-bold text-center mb-12 tracking-wide eb-garamond"
             initial={{ opacity: 0, x: -100, skewX: -10 }}
             whileInView={{ opacity: 1, x: 0, skewX: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -559,7 +559,7 @@ export default function Index() {
       <section id="booking" className="py-24 px-4 overflow-x-hidden">
         <div className="max-w-2xl mx-auto">
           <motion.h2
-            className="text-4xl font-bold text-center mb-12 tracking-wide"
+            className="text-4xl font-bold text-center mb-12 tracking-wide eb-garamond"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -663,7 +663,7 @@ export default function Index() {
       <section id="faq" className="py-24 px-4 bg-card overflow-x-hidden">
         <div className="max-w-4xl mx-auto">
           <motion.h2
-            className="text-4xl font-bold text-center mb-12 tracking-wide"
+            className="text-4xl font-bold text-center mb-12 tracking-wide eb-garamond"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -694,7 +694,7 @@ export default function Index() {
       <section className="py-24 px-4 overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
-            className="text-4xl font-bold text-center mb-12 tracking-wide"
+            className="text-4xl font-bold text-center mb-12 tracking-wide eb-garamond"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -744,10 +744,13 @@ export default function Index() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 px-4 bg-card overflow-x-hidden">
+      <section
+        id="contact"
+        className="py-24 px-4 bg-card overflow-x-hidden eb-garamond"
+      >
         <div className="max-w-4xl mx-auto text-center">
           <motion.h2
-            className="text-4xl font-bold mb-8 tracking-wide"
+            className="text-4xl font-bold mb-8 tracking-wide eb-garamond"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
